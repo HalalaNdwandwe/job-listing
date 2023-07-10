@@ -1,10 +1,14 @@
-import './App.css'
+import React from "react"
+import Search from "./Components/SearchBar/Search"
+import Jobs from "./Components/JobSection/Jobs"
 
-function App() {
+const App =()=> {
   return (
-   <>
-   Job Listing
-   </>
+   <div>
+    <Search/>
+    <Jobs/>
+   
+   </div>
   )
 }
 

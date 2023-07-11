@@ -1,5 +1,6 @@
 import React from "react";
 import bgImg from "../assets/backgrond-image.jpg"
+import Search from "./Search";
 
 const Data = [
     {
@@ -13,7 +14,7 @@ const Data = [
     {
         id: 2,
         tittle: 'Tecnhician',
-        time: '5 days ago',
+        time: '5 dys ago',
         location: 'JHB',
         desc: 'Graduate program',
         company: 'Vodacom'
@@ -88,6 +89,7 @@ const Data = [
 const Jobs = () => {
     return (
         <section className={`py-12  bg-cover bg-center bg-[url(${bgImg})]`}>
+            <Search/>
             <div className="jobContainer flex gap-10 justify-center flex-wrap items-center py-10">
  
                 {
@@ -97,7 +99,7 @@ const Jobs = () => {
 
                             <span className="flex justify-between items-center gap-4">
                                 <h1 className="text-[16px] font-semibold text-textColor group-hover:text-white">{tittle}</h1>
-                                <span className="material-symbols-outlined flex items-center text-[#ccc] gap-1">{time}</span>
+                                <span className="material-symbols-outlined text-[9px] items-center text-[#ccc] gap-0">schedule {time}</span>
                             </span>
 
                             <h6 className="text-[#ccc]">{location}</h6>

@@ -40,7 +40,8 @@ const JobSec = () => {
 
                             <span className="flex justify-between items-center gap-4">
                                 <h1 className="text-[16px] font-semibold text-textColor group-hover:text-white">{tittle}</h1>
-                                <span class="material-symbols-outlined flex items-center text-black gap-1">{time}</span>
+                                <span className="material-symbols-outlined text-[9px] items-center text-[#ccc] gap-0">schedule {time}</span>
+                                
                             </span>
 
                             <h6 className="text-black">{location}</h6>

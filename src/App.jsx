@@ -1,11 +1,16 @@
+import './App.css'
 import React from "react"
-import Search from "./Components/SearchBar/Search"
-import Jobs from "./Components/JobSection/Jobs"
+// import Home from './Components/home'
+// import JobSec from './Components/JobSec'
+import Search from "./Components/Search"
+import Jobs from "./Components/Jobs"
 
 const App =()=> {
   return (
    <div>
-    <Search/>
+    {/* <Home/> */}
+    <Search/> 
+    {/* <JobSec/> */}
     <Jobs/>
    
    </div>

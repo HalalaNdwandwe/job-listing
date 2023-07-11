@@ -1,4 +1,5 @@
 import React from "react";
+import bgImg from "../assets/backgrond-image.jpg"
 
 const Data = [
     {
@@ -86,8 +87,9 @@ const Data = [
 
 const Jobs = () => {
     return (
-        <div>
+        <section className={`py-12  bg-cover bg-center bg-[url(${bgImg})]`}>
             <div className="jobContainer flex gap-10 justify-center flex-wrap items-center py-10">
+ 
                 {
                     Data.map(({id,tittle,time,location,desc,company}) =>{
                         return(
@@ -95,7 +97,7 @@ const Jobs = () => {
 
                             <span className="flex justify-between items-center gap-4">
                                 <h1 className="text-[16px] font-semibold text-textColor group-hover:text-white">{tittle}</h1>
-                                <span class="material-symbols-outlined flex items-center text-[#ccc] gap-1">{time}</span>
+                                <span className="material-symbols-outlined flex items-center text-[#ccc] gap-1">{time}</span>
                             </span>
 
                             <h6 className="text-[#ccc]">{location}</h6>
@@ -116,7 +118,7 @@ const Jobs = () => {
                 }
 
             </div>
-        </div>
+        </section>
     )
 }
 export default Jobs

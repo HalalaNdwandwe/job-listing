@@ -1,7 +1,6 @@
 import React from "react";
 import bgImg from "../assets/backgrond-image.jpg"
-import Search from "./Search";
-
+import TopBar from "./TopBar";
 const Data = [
     {
         id: 1,
@@ -89,7 +88,8 @@ const Data = [
 const Jobs = () => {
     return (
         <section className={`py-12  bg-cover bg-center bg-[url(${bgImg})]`}>
-            <Search/>
+            <TopBar/>
+            
             <div className="jobContainer flex gap-10 justify-center flex-wrap items-center py-10">
  
                 {

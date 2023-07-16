@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom"
 
 
 const TopBar =()=>{
@@ -8,7 +9,7 @@ const TopBar =()=>{
 
                <div className='flex justify-between items-center'>
                     <div>
-                        <a href='#' className='font-bold text-4xl pl-20 hover:text-sky-700 '>JOB AGENCY WEBSITE</a>
+                        <NavLink to='/' className='font-bold text-4xl pl-20 hover:text-sky-700 '>JOB AGENCY WEBSITE</NavLink>
                     </div>
 
                     <div className="SearchBar bg-transparent grid shadow-lg shadow-greyIsh-700 gap-2 rounded-2xl">
@@ -24,13 +25,13 @@ const TopBar =()=>{
                     <div>
                         <ul className="flex gap-24 text-xl pr-5">
                             <li>
-                                <a href="#" className="font-bold hover:text-sky-700">Home</a>
+                                <NavLink to='/' className="font-bold hover:text-sky-700">Home</NavLink>
                             </li>
                             <li>
-                                <a href="#" className="font-bold hover:text-sky-700">Jobs</a>
+                                <NavLink to='/Jobs' className="font-bold hover:text-sky-700">Jobs</NavLink>
                             </li>
                             <li>
-                                <a href="#" className="font-bold hover:text-sky-700">Post Job</a>
+                                <NavLink to='/AddJobs' className="font-bold hover:text-sky-700">Post Job</NavLink>
                             </li>
                         </ul>
                     </div>

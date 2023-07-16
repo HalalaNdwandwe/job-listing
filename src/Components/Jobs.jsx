@@ -88,7 +88,6 @@ const Data = [
 const Jobs = () => {
     return (
         <section className={`py-12  bg-cover bg-center bg-[url(${bgImg})]`}>
-            <TopBar/>
             
             <div className="jobContainer flex gap-10 justify-center flex-wrap items-center py-10">
  

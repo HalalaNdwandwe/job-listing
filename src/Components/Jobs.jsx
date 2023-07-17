@@ -87,7 +87,7 @@ const Data = [
 
 const Jobs = () => {
     return (
-        <section className="">
+        <section className={`py-12  bg-cover bg-center bg-bgImg`}>
             
             <div className="jobContainer flex gap-10 justify-center flex-wrap items-center py-10">
  

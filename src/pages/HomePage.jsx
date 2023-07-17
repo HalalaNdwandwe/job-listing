@@ -5,9 +5,7 @@ import JobSec from '../Components/JobSec';
 const HomePage = () => {
     return (
         <MainLayout>
-            <Home/>
-            <JobSec/>
-            
+            <Home/>            
             
         </MainLayout>
     )

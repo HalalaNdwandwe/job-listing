@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'image': "url('./src/assets/App-image.jpg')",
+        'bgImg': "url('./src/assets/backgrond-image.jpg')",
+      },
       colors:{
         'blueColor': '#2a68ff',
         'greyIsh': '#f1f4f8',

@@ -4,7 +4,7 @@ import TopBar from "./TopBar";
 
 const AddJobs =()=> {
     return(
-        <section className="py-20">
+        <section className="bg-pjImg  bg-center bg-cover">
             <div className="container mx-auto ">
                 <form className="border-2 border-zinc-600 rounded py-10 px-7 ml-40 mr-40">
                     <h2 className="font-bold text-xl flex justify-center">Post Job</h2>

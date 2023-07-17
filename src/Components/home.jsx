@@ -3,7 +3,7 @@ import JobSec from './JobSec'
 
 const Home = () => {
     return (
-        <section className='bg-image bg-cover'>
+        <section className='bg-image bg-center bg-cover'>
             <div className='text-center'>
                 <h1 className='font-extrabold text-3xl text-yellow-400 mb-4'>Explore Thousands of Jobs</h1>
                 <p className='text-2xl mb-4'>Find Jobs, Employment & Career Opportunities. At your fingertips!</p>

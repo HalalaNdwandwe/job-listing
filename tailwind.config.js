@@ -9,6 +9,7 @@ export default {
       backgroundImage: {
         'image': "url('./src/assets/App-image.jpg')",
         'bgImg': "url('./src/assets/backgrond-image.jpg')",
+        'pjImg': "url('./src/assets/postjobs-background.jpg')",
       },
       colors:{
         'blueColor': '#2a68ff',

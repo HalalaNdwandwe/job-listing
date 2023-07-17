@@ -1,5 +1,5 @@
 import React from "react";
-import bgImg from "../assets/backgrond-image.jpg"
+import bgImg from "../assets/backgrond-image.jpg";
 import TopBar from "./TopBar";
 const Data = [
     {
@@ -87,7 +87,7 @@ const Data = [
 
 const Jobs = () => {
     return (
-        <section className={`py-12  bg-cover bg-center bg-[url(${bgImg})]`}>
+        <section className="">
             
             <div className="jobContainer flex gap-10 justify-center flex-wrap items-center py-10">
  

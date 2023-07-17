@@ -4,7 +4,7 @@ import hmImg from "../assets/App-image.jpg";
 
 const Home = () => {
     return (
-        <section className={`bg-[url(${hmImg})]`}>
+        <section className="">
             <div className='text-center'>
                 <h1 className='font-extrabold text-3xl text-yellow-400 mb-4'>Explore Thousands of Jobs</h1>
                 <p className='text-2xl mb-4'>Find Jobs, Employment & Career Opportunities. At your fingertips!</p>
